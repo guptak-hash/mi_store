@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=shopping_cart" />
+    <title>Simple Navigation Bar</title>
+   <style>
+    #right{
+        display: flex;
+        
+    }
+    li{
+        margin: 10px;
+        list-style-type: " ";
+    }
+    #nav{
+        width: 100%;
+        height: auto;
+        text-align: right;
+        border: 2px solid black;
+        display: flex;
+    }
+    #right{
+        width: 60%;
+        height: auto;
+        border: 2px solid yellow;
+        margin-right: 200px;
+    }
+    #mi_image{
+        height: 100%;
+        width: 5%;
+    }
+    #left{
+         height: auto;
+         width: 30%;
+         border: 2px solid red;
+         display: flex;
+    }
+    #search{
+        height: 60%;
+        width: 6%;
+        ;
+    }
+    .leftimg{
+        display: block;
+        margin: auto;
+        height: 100%;
+        width: 5%;
+    }
+    #container{
+        width: auto;
+        height: 250px;
+        margin: 50px 20px 70px 20px;
+        
+        border: 2px red solid;
+        display: flex;
+    }
+    .child{
+        width: 25%;
+        height: 100%;
+        border: 2px solid blue;
+    }
+    #a{
+          height: auto;
+          width: 100%;
+          border: 2px solid black;
+    }
+    .but{
+        padding: none;
+        background-color: orange;
+        border-radius: 10px;
+    }
+    #cimg{
+           height: 150px;
+           align-items: center;
+    }
+    #cimgbox{
+        height: auto;
+        
+
+    }
+    
+   </style>
+</head>
+<body>
+    <div id="nav">
+        <div id="right">
+            <img src="https://static.vecteezy.com/system/resources/previews/020/190/492/non_2x/mi-xiaomi-logo-mi-xiaomi-icon-free-free-vector.jpg" id="mi_image">
+            <li>Store</li>
+            <li>Phones</li>
+            <li>Tablets</li>
+            <li>TV & Smart Home</li>
+            <li>Smart Watch & Audio</li>
+        </div>
+        <div id="left">
+            <li>Discover</li>
+            <li >Support</li>
+         <img src="https://cdn-icons-png.flaticon.com/128/11741/11741045.png" class="leftimg">
+         <img src="https://cdn-icons-png.flaticon.com/128/1170/1170678.png" class="leftimg">
+         <img src="https://cdn-icons-png.flaticon.com/128/15521/15521670.png" class="leftimg">
+        </div>
+    </div>
+
+  <div id="container">
+    <div id="child1" class="child">
+        <div id="a">
+            <h2>Redmi 13C</h2>
+            <button class="but">13% off</button>
+        </div>
+        <div id="cimgbox"> 
+            <h2>₹8,499</h2>
+            <img src="https://i03.appmifile.com/791_item_in/04/07/2024/88e7985074e520283c26a5a96843b27d!600x600!85.jpg" id="cimg">
+        </div>
+       
+    </div>
+    <div id="child2" class="child"></div>
+    <div id="child3" class="child"></div>
+    <div id="child4" class="child"></div>
+  </div>
+</body>
+</html>
